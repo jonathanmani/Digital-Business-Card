@@ -40,3 +40,24 @@ a{
     font-weight: 400;
     text-decoration: none;
 }
+
+.button-div{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;  
+    margin: 20px auto 0 auto;
+
+}
+
+.button-email,
+.button-linkedin {
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+.button-linkedin{
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
