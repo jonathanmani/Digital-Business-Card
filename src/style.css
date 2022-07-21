@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box;
+    
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 30vw;
+    height: 95vh;
+    background-color: #1A1B21;
+}
+
+h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+h3{
+    color: #F3BF99;
+    font-weight: 400;
+    text-align: center;
+    margin: 7px 0 0 0;
+    padding: 0;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+a{
+    color: #F5F5F5;
+    font-weight: 400;
+    text-decoration: none;
+}
