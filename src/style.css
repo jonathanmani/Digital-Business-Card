@@ -8,6 +8,8 @@ html{
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 30vw;
     height: 95vh;
     background-color: #1A1B21;
@@ -44,14 +46,14 @@ a{
 .button-div{
     display: flex;
     justify-content: space-around;
-    width: 70%;  
+    width: 100%;  
     margin: 20px auto 0 auto;
 
 }
 
 .button-email,
 .button-linkedin {
-    padding: 10px 30px;
+    padding: 12px 55px;
     font-size: 15px;
     border-radius: 6px;
     border: none;
@@ -60,4 +62,19 @@ a{
 .button-linkedin{
     background-color: #5093E2;
     color: #FFFFFF;
+}
+
+.info-div{
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.info-title {
+    color: #F5F5F5;
+    margin: 0;
+}
+
+.paragraph {
+    color: #DCDCDC;
+    margin: 0 0 20px 0;
 }
