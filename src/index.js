@@ -4,6 +4,7 @@ import './style.css'
 import Photo from './components/Photo'
 import Header from './components/Header'
 import Info from './components/Info'
+import Socials from './components/Socials'
 
 
 export default function Page(){
@@ -12,6 +13,7 @@ export default function Page(){
             <Photo />
             <Header />
             <Info />
+            <Socials />
         </div>
         
     )

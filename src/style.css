@@ -79,3 +79,11 @@ a{
     margin: 0 0 20px 0;
     line-height: 150%;
 }
+
+.socials-div{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #161619;
+    padding: 20px 70px;
+
+}
